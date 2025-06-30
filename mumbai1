@@ -1,10 +1,1 @@
-def is_palindrome(word):
-    word = word.lower().replace(" ", "")  # Ignore case and spaces
-    return word == word[::-1]
-
-if __name__ == "__main__":
-    test_word = input("Enter a word or phrase: ")
-    if is_palindrome(test_word):
-        print(f"'{test_word}' is a palindrome!")
-    else:
-        print(f"'{test_word}' is not a palindrome.")
+print("Hello, World!")
